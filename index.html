@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>Cardapio</title>
+    <link rel="icon" href="img/Arepero-removebg-preview.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Arepero-removebg-preview.png" alt="logo">
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="#produtos">Nossos Produtos</a></li>
+                    <li><a href="#recheios">Recheios</a></li>
+                    <li><a href="#adicionais">Adicionais</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+    <section class="zona1"></section>
+    <!-- cards -->
+    <h1 id="produtos" class="titulo" >Nossos Produtos</h1>
+    <section class="cards-boton">
+    <!-- boton-modal 1    -->
+        <div class="cards-carda">
+            <div class="img-cards">
+                <img src="img/cards/4.png" alt="arepaSola">
+            </div>
+            <div class="Nome">
+                <h3>Arepa Pirangueira</h3>
+            </div>
+            <div class="boton-modal">
+                <label for="btn-modal">
+                    Adicionar
+                </label>
+            </div>
+        </div>
+    <!-- fin boton-modal  1-->
+    <!-- Ventana modal  1-->
+        <input type="checkbox" id="btn-modal">
+        <div class="container-modal">
+            <div class="content-modal">
+                <div class="img-modal">
+                    <img src="img/cards/4.png" alt="arepaSola">
+                </div>
+                <div class="promo">
+                    <h3>Arepa Pirangueira</h3>
+                    <p>Arepa sem recheio, só para como como quiser</p>
+                    <p class="preco">R$ 3,00</p>
+                </div>
+                <div class="btn-cerrar">
+                <label for="btn-modal">Adicionar</label>
+                <label for="btn-modal">Voltar</label>
+                </div>
+                <label for="btn-modal"  class="cerrar-modal"></label>
+            </div>
+        </div>
+    <!-- Fin ventana modal 1 -->
+        <!-- boton-modal   2 -->
+        <div class="cards-carda2">
+            <div class="img-cards2">
+                <img src="img/cards/3.png" alt="arepaSola">
+            </div>
+            <div class="Nome2">
+                <h3>Arepa Massa</h3>
+            </div>
+            <div class="boton-modal2">
+                <label for="btn-modal2">
+                    Adicionar
+                </label>
+            </div>
+        </div>
+    <!-- fin boton-modal 2 -->
+    <!-- Ventana modal 2-->
+        <input type="checkbox" id="btn-modal2">
+        <div class="container-modal2">
+            <div class="content-modal2">
+                <div class="img-modal2">
+                    <img src="img/cards/3.png" alt="arepa de un relleno">
+                </div>
+                <div class="promo2">
+                    <h3>Arepa Massa</h3>
+                    <p>Arepas rechiada simples, com o recheio da sua preferncia</p>
+                    <p class="preco2">R$ 12,00</p>
+                </div>
+                <div class="btn-cerrar2">
+                <label for="btn-modal2">Adicionar</label>
+                <label for="btn-modal2">Voltar</label>
+                </div>
+                <label for="btn-modal2"  class="cerrar-modal"></label>
+            </div>
+        </div>
+    <!-- Fin ventana modal 2-->
+    <!-- boton-modal    3-->
+    <div class="cards-carda3">
+        <div class="img-cards3">
+            <img src="img/cards/2.png" alt="arepaSola">
+        </div>
+        <div class="Nome3">
+            <h3>Arepa Arretada</h3>
+        </div>
+        <div class="boton-modal3">
+            <label for="btn-modal3">
+                Adicionar
+            </label>
+        </div>
+    </div>
+    <!-- fin boton-modal 3-->
+        <!-- Ventana modal 3-->
+            <input type="checkbox" id="btn-modal3">
+            <div class="container-modal3">
+                <div class="content-modal3">
+                    <div class="img-modal3">
+                        <img src="img/cards/2.png" alt="arepaSola">
+                    </div>
+                    <div class="promo3">
+                        <h3>Arepa Arretada</h3>
+                        <p>Arepa duplo recheio, pode fazer a combinação da sua preferênça</p>
+                        <p class="preco3">R$ 18,00</p>
+                    </div>
+                    <div class="btn-cerrar3">
+                    <label for="btn-modal3">Adicionar</label>
+                    <label for="btn-modal3">Voltar</label>
+                    </div>
+                    <label for="btn-modal3"  class="cerrar-modal"></label>
+                </div>
+            </div>
+        <!-- Fin ventana modal 3-->
+        <!-- boton-modal    4-->
+                <div class="cards-carda4">
+                    <div class="img-cards4">
+                        <img src="img/cards/1.png" alt="arepaSola">
+                    </div>
+                    <div class="Nome4">
+                        <h3>Arepa Cuscuz</h3>
+                    </div>
+                    <div class="boton-modal4">
+                        <label for="btn-modal4">
+                            Adicionar
+                        </label>
+                    </div>
+                </div>
+        <!-- fin boton-modal 4-->
+        <!-- Ventana modal 4-->
+            <input type="checkbox" id="btn-modal4">
+            <div class="container-modal4">
+                <div class="content-modal4">
+                    <div class="img-modal4">
+                        <img src="img/cards/1.png" alt="arepaSola">
+                    </div>
+                    <div class="promo4">
+                        <h3>Arepa Cuscuz</h3>
+                        <p>Experimenta o delicioso cuscuz agora en forma de Arepa</p>
+                        <p class="preco4">R$ 3,00</p>
+                    </div>
+                    <div class="btn-cerrar4">
+                    <label for="btn-modal4">Adicionar</label>
+                    <label for="btn-modal4">Voltar</label>
+                    </div>
+                    <label for="btn-modal4"  class="cerrar-modal"></label>
+                </div>
+            </div>
+        <!-- Fin ventana modal 4-->
+        <!-- boton-modal    5-->
+        <!-- <div class="cards-carda">
+            <div class="img-cards">
+                <img src="img/cards/4.png" alt="arepaSola">
+            </div>
+            <div class="Nome">
+                <h3>Arepa Arretada</h3>
+            </div>
+            <div class="boton-modal">
+                <label for="btn-modal">
+                    Comprar
+                </label>
+            </div>
+        </div>
+    fin boton-modal 5 -->
+    <!-- Ventana modal 5-->
+        <!-- <input type="checkbox" id="btn-modal">
+        <div class="container-modal">
+            <div class="content-modal">
+                <div class="img-modal">
+                    <img src="img/cards/4.png" alt="arepaSola">
+                </div>
+                <div class="promo">
+                    <h3>Arepa Arretada</h3>
+                    <p>Arepa sem recheio, só para como como quiser</p>
+                    <p class="preco">R$ 18,00</p>
+                </div>
+                <div class="btn-cerrar">
+                <label for="btn-modal">Comprar</label>
+                </div>
+                <label for="btn-modal"  class="cerrar-modal"></label>
+            </div>
+        </div> -->
+        <!-- Fin ventana modal 5-->
+    </section>
+    <!-- fin das cards -->  
+    <section class="search containert">
+        <div class="search-txt">             
+            <h1 id="recheios">Recheios</h1>
+        </div>
+    </section>
+    <section class="nivels containert">
+        <h2>Escolha os recheios a sua bondade, qualquer um por un valor de R$ 8,00</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="img/adicionales/1.png" alt="">
+                <div class="boton-modal">
+                    <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/2.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/3.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/4.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/5.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/6.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/7.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/1.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/2.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/3.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/4.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/5.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/6.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/adicionales/7.png" alt="">
+                    <div class="boton-modal">
+                        <label for="boton-adic"  class="boton-adic">Adicionar</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" adicionais">
+        <div class="form-pedido">
+            <div class="row">  
+                <h2 id="adicionais">Adicionais</h2>
+                <p>Escolha o molho da sua preferença, cada um por R$ 2,00</p>                
+                <form class="form-adi">
+                    <span>
+                    <input type="checkbox" id="Ketchup">
+                    <label for="Ketchup">Ketchup </label>
+                    </span>
+                    <span>
+                    <input type="checkbox" id="Maionese">
+                    <label for="Maionese">Maionese </label>
+                    </span>
+                    <span>                    
+                    <input type="checkbox" id="Mostarda">
+                    <label for="Mostarda"> Mostarda </label>
+                    </span>
+                    <span>
+                    <input type="checkbox" id="Barbacue">
+                    <label for="Barbacue"> Barbacue </label>
+                    </span>
+                    <span>
+                    <input type="checkbox" id="Molho de Queijo">
+                    <label for="Molho de Queijo">Molho de Queijo</label>
+                    </span>
+                    <span>
+                    <input type="checkbox" id="Maionese Temperada">
+                    <label for="Maionese Temperada"> Maionese Temperada </label>
+                    </span>
+                    <span>
+                    <input type="checkbox" id="Molho de Bacon">
+                    <label for="Molho de Bacon"> Molho de Bacon </label>
+                    </span>                                     
+                </form>
+                <img src="img/Arepero-removebg-preview.png" alt="logo Arepa" class="loguito">
+            </div> 
+            <div class="boton-modal">
+                <label for="boton-adic"  class="boton-adic">Adicionar</label>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+            <h1 class="titulo" id="bebidas">Bebidas</h1>
+        <section class="cards-boton">
+        <!-- boton-modal 1    -->
+            <div class="cards-carda5">
+                <div class="img-cards5">
+                    <img src="img/bebida/5.png" alt="arepaSola">
+                </div>
+                <div class="Nome5">
+                    <h3>Suco de Laranja</h3>
+                </div>
+                <div class="boton-modal5">
+                    <label for="btn-modal5">
+                        Adicionar
+                    </label>
+                </div>
+            </div>
+        <!-- fin boton-modal  1-->
+        <!-- Ventana modal  1-->
+            <input type="checkbox" id="btn-modal5">
+            <div class="container-modal5">
+                <div class="content-modal5">
+                    <div class="img-modal5">
+                        <img src="img/bebida/5.png" alt="arepaSola">
+                    </div>
+                    <div class="promo5">
+                        <h3>Suco de Laranja</h3>
+                        <p>Suco Natural, recem feito na hora</p>
+                        <p class="preco5">R$ 7,00</p>
+                    </div>
+                    <div class="btn-cerrar5">
+                    <label for="btn-modal5">Adicionar</label>
+                    <label for="btn-modal5">Voltar</label>
+                    </div>
+                    <label for="btn-modal5"  class="cerrar-modal"></label>
+                </div>
+            </div>
+        <!-- Fin ventana modal 1 -->
+            <!-- boton-modal   2 -->
+            <div class="cards-carda6">
+                <div class="img-cards6">
+                    <img src="img/bebida/6.png" alt="arepaSola">
+                </div>
+                <div class="Nome6">
+                    <h3>Suco de Limão</h3>
+                </div>
+                <div class="boton-modal6">
+                    <label for="btn-modal6">
+                        Adicionar
+                    </label>
+                </div>
+            </div>
+        <!-- fin boton-modal 2 -->
+        <!-- Ventana modal 2-->
+            <input type="checkbox" id="btn-modal6">
+            <div class="container-modal6">
+                <div class="content-modal6">
+                    <div class="img-modal6">
+                        <img src="img/bebida/6.png" alt="arepa de un relleno">
+                    </div>
+                    <div class="promo6">
+                        <h3>Suco de Limão</h3>
+                        <p>Suco de limão com o melhor sabor para tirar a sede</p>
+                        <p class="preco6">R$ 6,00</p>
+                    </div>
+                    <div class="btn-cerrar6">
+                    <label for="btn-modal6">Adicionar</label>
+                    <label for="btn-modal6">Voltar</label>
+                    </div>
+                    <label for="btn-modal6"  class="cerrar-modal"></label>
+                </div>
+            </div>
+        <!-- Fin ventana modal 2-->
+        <!-- boton-modal    3-->
+        <div class="cards-carda7">
+            <div class="img-cards7">
+                <img src="img/bebida/8.png" alt="arepaSola">
+            </div>
+            <div class="Nome7">
+                <h3>Suco de Caju</h3>
+            </div>
+            <div class="boton-modal7">
+                <label for="btn-modal7">
+                    Adicionar
+                </label>
+            </div>
+        </div>
+        <!-- fin boton-modal 3-->
+            <!-- Ventana modal 3-->
+                <input type="checkbox" id="btn-modal7">
+                <div class="container-modal7">
+                    <div class="content-modal7">
+                        <div class="img-modal7">
+                            <img src="img/bebida/8.png" alt="arepaSola">
+                        </div>
+                        <div class="promo7">
+                            <h3>Suco de Caju</h3>
+                            <p>Disfuta de un delicioso suco de Caju</p>
+                            <p class="preco7">R$ 6,00</p>
+                        </div>
+                        <div class="btn-cerrar7">
+                        <label for="btn-modal7">Adicionar</label>
+                        <label for="btn-modal7">Voltar</label>
+                        </div>
+                        <label for="btn-modal7"  class="cerrar-modal"></label>
+                    </div>
+                </div>
+            <!-- Fin ventana modal 3-->
+            <!-- boton-modal    4-->
+                    <div class="cards-carda8">
+                        <div class="img-cards8">
+                            <img src="img/bebida/9.png" alt="arepaSola">
+                        </div>
+                        <div class="Nome8">
+                            <h3>Coca Cola</h3>
+                        </div>
+                        <div class="boton-modal8">
+                            <label for="btn-modal8">
+                                Adicionar
+                            </label>
+                        </div>
+                    </div>
+            <!-- fin boton-modal 4-->
+            <!-- Ventana modal 4-->
+                <input type="checkbox" id="btn-modal8">
+                <div class="container-modal8">
+                    <div class="content-modal8">
+                        <div class="img-modal8">
+                            <img src="img/bebida/9.png" alt="arepaSola">
+                        </div>
+                        <div class="promo8">
+                            <h3>Coca Cola</h3>
+                            <p>Para os amantes da Coca Cola</p>
+                            <p class="preco4">R$ 6,00</p>
+                        </div>
+                        <div class="btn-cerrar8">
+                        <label for="btn-modal8">Adicionar</label>
+                        <label for="btn-modal8">Voltar</label>
+                        </div>
+                        <label for="btn-modal8"  class="cerrar-modal"></label>
+                    </div>
+                </div>
+    </section>
+    <section class="pagamento">
+        <h1>Pagamento</h1>
+        <!-- boton-modal    4-->
+        <div class="cards-carda15">
+            <div class="boton-modal8">
+                <label for="btn-modal9">
+                    Pagar
+                </label>
+            </div>
+        </div>
+<!-- fin boton-modal 4-->
+<!-- Ventana modal 4-->
+    <input type="checkbox" id="btn-modal9">
+    <div class="container-modal9">
+        <div class="content-modal8">
+            <div id="app" class="col-11">
+
+                <h2>Pagamento</h2>
+            
+                <div class="row my-3">
+                <div class="col-10">
+                    <h1>Oxe Arepa</h1>
+                    <p>Av. Winston Churchill</p>
+                    <p>Plaza Orleans 3er. nivel</p>
+                    <p>local 312</p>
+                </div>
+                <div class="col-2">
+                    <img src="img/Arepero-removebg-preview.png" alt="logo"  width="120px"/>
+                </div>
+                </div>
+                <div class="row fact-info mt-3">
+                <div class="col-3">
+                    <h5>Facturar a</h5>
+                    <p>
+                    Arian Manuel Garcia Reynoso
+                    </p>
+                </div>
+                <div class="col-3">
+                    <h5>Enviar a</h5>
+                    <p>
+                    Cotui, Sanchez Ramirez
+                    Santa Fe, #19
+                    arianmanuel75@gmail.com
+                    </p>
+                </div>
+                <div class="col-3">
+                    <h5>N° de Nota Fiscal</h5>
+                    <h5>Data</h5>
+                </div>
+                <div class="col-3">
+                    <h5>10322368536-9</h5>
+                    <p>09/07/2023</p>
+                </div>
+                </div>
+            
+                <div class="row my-5">
+                <table class="table table-borderless factura">
+                    <thead>
+                    <tr>
+                        <th>Cant.</th>
+                        <th>Descripcion</th>
+                        <th>Precio Unitario</th>
+                        <th>Importe</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>Arepa Arretada</td>
+                        <td>18,00</td>
+                        <td>36,00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Suco de Laranja</td>
+                        <td>7,00</td>
+                        <td>14,00</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Total a pagar</th>
+                        <th>R$50,00</th>
+                    </tr>
+                    </tfoot>
+                </table>
+                </div>
+            
+                <div class="cond row">
+                <div class="col-12 mt-3">
+                    <h4>Forma de pagamento</h4>
+                    <p>O pagamemto sera realizado via Pix</p>
+                    <p>
+                    Banco Banreserva
+                    <br />
+                    CPF:  075 XXX XXX - XX
+                    <br />
+                    Código SWIFT: BPDODOSXXXX
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="btn-cerrar9">
+            <label for="btn-modal9">Pagar</label>
+            <label for="btn-modal9">Voltar</label>
+            </div>
+        </div>    
+            <label for="btn-modal9"  class="cerrar-modal"></label>
+        
+    </div>
+    </section>
+    <footer>
+        <div>
+            <h2 id="contatos">Contatos</h2>
+            <img src="img/whatsaapp.png" alt="whatsaapp"  width="120px"/>
+            <img src="img/instagram.png" alt="whatsaapp"  width="120px"/>
+
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> 
+
+    <script src="script.js"></script>
+    </main>    
+     
+</body>
+</html>
